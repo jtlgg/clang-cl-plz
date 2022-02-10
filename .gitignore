@@ -1,0 +1,7 @@
+plz-*
+.plzconfig_*
+.plzconfig.*
+build/
+cmake-*/
+.idea/
+*.iml

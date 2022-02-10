@@ -1,0 +1,8 @@
+arch(name="windows", os="windows", arch="amd64")
+arch(name="linux", os="linux", arch="amd64")
+arch(name="macos", os="darwin", arch="amd64")
+
+cc_binary(
+    name="test_executable",
+    srcs=glob(["source/*.cpp"])
+)

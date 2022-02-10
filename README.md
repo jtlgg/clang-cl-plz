@@ -14,3 +14,6 @@ Build finished; total time 1.85s, incrementality 50.0%. Outputs:
   plz-out/bin/macos/test_executable
 ```
 
+Notes:
+- `custom_cc_rules` has some changes to make the windows target work.
+- issues with archiving, worked around by only making `.o`/`.obj`, then linking that into executables.
